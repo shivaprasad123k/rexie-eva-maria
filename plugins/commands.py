@@ -21,8 +21,6 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚡️ WORKING GROUP ⚡️', url=f'https://t.me/moviehubgroupp')
             ],[
-            InlineKeyboardButton('🎖️ CHANNEL 🎖️', url='https://t.me/EvaMariaUpdates')
-            ],[
             InlineKeyboardButton('Help🥺', callback_data='help'),
             InlineKeyboardButton('About😎', callback_data='about')
         ]]
