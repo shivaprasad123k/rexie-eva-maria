@@ -19,13 +19,12 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('⚡️ WORKING GROUP ⚡️', url=f'https://t.me/moviehubgroupp')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/EvaMariaUpdates')
+            InlineKeyboardButton('🎖️ CHANNEL 🎖️', url='https://t.me/EvaMariaUpdates')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('Help🥺', callback_data='help'),
+            InlineKeyboardButton('About😎', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -46,16 +45,16 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "♥️ JOIN ♥️", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"checksub#{message.command[1]}")])
+            btn.append([InlineKeyboardButton("🍿 DOWNLOAD 🍿", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Please Join My Updates Channel to use this Bot!**",
+            text="**താഴെ കാണുന്ന JOIN BUTTON CLICK ചെയ്തു FILES ഇടുന്ന ചാനൽ ഇൽ ജോയിൻ ആകുക എന്നിട്ട് DOWNLOAD എന്ന ബട്ടൺ ഇൽ ക്ലിക്ക് ചെയ്യുക CINEMA ലഭിക്കും 💯**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
