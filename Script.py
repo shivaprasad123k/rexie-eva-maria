@@ -1,11 +1,9 @@
 class script(object):
-    START_TXT = """** HEY {} DUDE 🙋‍♂️ ,
-എന്റെ പേര് 𝑹ᴇxɪᴇ ഞാൻ <a href='https://t.me/moviehubgroupp'>MOVIE HUB GROUP</a> ഇൽ വെറുതെ ഇരിക്കുന്ന BOT ആണ്,  \n 
-\n You Can't Use Me in Your Group because I'm a private bot....🤓
+    START_TXT = """<b>HEY {} DUDE 🙋‍♂️ ,
 
-I only work on <a href='https://t.me/moviehubgroupp'>MOVIE HUB GROUP 😌</a>
+Iam Only For @malayalammoviesi
 
-©️ MᴀɪɴᴛᴀɪɴᴇD Bʏ  <a href='https://t.me/OGGY123kph'>𝑺ʜɪᴠᴀ 🕵️‍♂️</a>** """
+©️ MᴀɪɴᴛᴀɪɴᴇD Bʏ  <a href='https://t.me/Soul_cru_sher'>Soul_cru_sher</a></b>"""
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝙴𝚟𝚊 𝙼𝚊𝚛𝚒𝚊
